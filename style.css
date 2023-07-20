@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.div0{
+    background-color: rgb(25,32,42);
+    width: 305px;
+    height: 315px;
+    padding: 30px;
+    border-radius: 35px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.div1{
+    margin-bottom: 30px;
+
+}
+
+.div11{
+    background-color: rgb(38, 47, 56);
+    width: 40px;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.div2{
+    color : white;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+.div3{
+    color: hsl(217, 12%, 63%);
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 20px;
+}
+
+.div4{
+    color: hsl(217, 12%, 63%);
+    display:flex;
+    justify-content: space-between;
+}
+
+.div41, .div42, .div43, .div44, .div45{
+    background-color: rgb(38, 47, 56);
+    width: 42px;
+    height: 42px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.div41, .div42, .div43, .div44, .div45:hover{
+    cursor: pointer;
+}
+
+.selecionado{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.div5{
+    font-size: 14px;
+    letter-spacing: 4px;
+    background-color: hsl(25, 97%, 53%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 30px;
+    color : white;
+}
+
+.div5:hover{
+    cursor: pointer;
+}
+
+.submit{
+    background-color:white;
+    color:hsl(25, 97%, 53%);
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
